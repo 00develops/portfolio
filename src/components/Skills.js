@@ -1,6 +1,6 @@
 // Skills.js
 export default function Skills() {
-    const skills = ["HTML", "CSS", "Javascript", "Reactjs","JAVA","C/C++","UI/UX","Website designing","Typography","Wireframing","Prototyping" ];
+    const skills = ["HTML", "CSS", "Javascript", "Reactjs","JAVA","C/C++", "Competitive Programming","UI/UX","Website designing","Typography","Wireframing","Prototyping" ];
     const softwares=["Figma","Adobe XD","Photshop","Lightroom","Canva"];
     return (<>
         <section id="skills"
@@ -8,8 +8,8 @@ export default function Skills() {
             <h2 className="text-center text-6xl text-emerald-500 font-bold">
                 My Skills...
             </h2>
-            <div className="mt-10 flex gap-10 justify-center 
-                            flex-wrap mx-auto max-w-xl">
+            <div className="mt-10 flex gap-5 justify-center 
+                            flex-wrap mx-auto ">
                 {skills.map((skill, index) => {
                     return (
                         <div key={index}
@@ -24,9 +24,9 @@ export default function Skills() {
         </section>
         <section id="software"
             className="px-10 w-full my-40 max-w-5xl mx-auto">
-            <h2 className="text-center text-6xl text-emerald-500 font-bold">
+            <h4 className="text-center text-4xl text-emerald-500 font-bold">
                 Familiar Sostwares..
-            </h2>
+            </h4>
             <div className="mt-10 flex gap-10 justify-center 
                             flex-center mx-auto max-w-xl">
                 {softwares.map((softwares, index) => {

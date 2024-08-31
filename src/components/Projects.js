@@ -9,7 +9,7 @@ export default function Projects() {
         <section id="projects"
                  className="my-20 w-full flex flex-col gap-5 align-center max-w-5xl mx-auto">
             <h2 className="text-5xl text-emerald-500 font-bold text-center">
-                My Designs..
+                My Projects..
             </h2>
 
 

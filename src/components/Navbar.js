@@ -30,6 +30,14 @@ export default function Navbar() {
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
                                       hover:bg-emerald-600"
+                            href="#Experiences">
+                            My Experiences
+                        </a>
+                    </li>
+                    <li>
+                        <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
+                                      transition rounded hover:text-white 
+                                      hover:bg-emerald-600"
                             href="#projects">
                             Projects
                         </a>
